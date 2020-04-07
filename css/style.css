@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .cart{
+    display: flex;
+}
+
+.logo-container{
+    color: rgb(30, 57, 207);
+    flex: 1;
+}
+
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav{
+    flex: 2;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link{
+    color: rgb(30, 57, 207);
+    font-size: 18px;
+    text-decoration: none;
+}
+.acerca{
+
+    height: 200px;
+    width: 60%;
+    margin-top: 100px;
+    margin: 100px auto;
+    text-align: center;
+
+}
+.acerca h1{
+    text-align: center;
+    font-size: 45px;
+    color:  rgb(30, 57, 207);
+}
+hr{
+    width: 90%;
+    color: rgb(30, 57, 207);
+    margin: auto;
+}
+.services img{
+    height: 8%;
+    margin: 5px;
+
+}
+.servicios{
+    width: 90%;
+    margin: auto;
+}
+.services {
+    
+    display:inline-block; 
+    width: 22.5%;
+    margin: 5%;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(15, 43, 156, 0.493);
+    background: #fff;
+    color: rgb(30, 57, 207);
+
+}
+
+.servicios h1{
+    color: rgb(30, 57, 207);
+    text-align: center;
+    font-size: 45px;
+}
+
+.contacto{
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+    background: rgb(30, 57, 207);
+}
+
+.contacto h2{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+
+}
+.input-group input
+{
+  width: 45%;
+  border: 0;
+  outline: none !important;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: #fff;
+}
+
+.btn{
+
+ margin: 0 40% 0 42.5%;
+
+}
+label{
+    margin-left: 20px;
+    color: white;
+}
+.input-group select,.btn button{
+  width: 175px;
+  outline: none !important;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: rgb(30, 57, 207);
+  margin-bottom: 20px;
+
+}
+
+
+footer{
+    padding-top: 45px;
+    text-align: center;
+    color: blue;
+    height: 100px;
+    width: 100%;
+}
